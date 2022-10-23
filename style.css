@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #111;
+}
+.row_poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 100px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.row_poster:hover {
+  transform: scale(1.08);
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+.row_posterlarge {
+  max-height: 250px;
+}
+.row_posterlarge:hover {
+  transform: scale(1.09);
+}
+.row {
+  color: white;
+  margin-left: 20px;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(./images/1_5lyavS59mazOFnb55Z6znQ.png);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  object-fit: contain;
+  height: 448px;
+}
+.banner_contents {
+  margin-left: 30px;
+  padding-top: 140px;
+  height: 190px;
+  /* smjh */
+}
+.banner_title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+.banner_description {
+  width: 45rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  max-width: 360px;
+  height: 180px;
+}
+.banner_button {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+.banner_button:hover {
+  color: #000;
+  background-color: white;
+  transition: all 0.2s;
+}
+
+.banner--fadeBottom {
+  margin-top: 140px;
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+.nav_logo {
+  width: 80px;
+  object-fit: contain;
+}
+.nav_avatar {
+  width: 30px;
+  object-fit: contain;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.nav_black {
+  background-color: #111;
+}
+
+.sagar {
+  text-align: center;
+}
+
+.sumit {
+  text-align: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #b80606;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #cc0707;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.charu {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.raj {
+  height: 100px;
+  width: 10%;
+}
+
+.daksh {
+  background-color: #000000;
+  color: white;
+}
+
+.mitthu {
+  background-color: #ce190c;
+  color: rgba(255, 255, 255, 0.849);
+}
+
+.tejvir {
+  height: 140px;
+}
+
+hr.solid {
+  border-top: 3px solid rgb(0, 0, 0);
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  padding: 5px;
+  flex: 50%;
+}
+
+.sonu {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.monu {
+  font-size: 60px;
+}
+
+.raju {
+  font-size: 30px;
+}
+
+.papa {
+  background-size: contain;
+  background-origin: content-box;
+  height: auto;
+  padding: 25px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 40px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
+}
+
+.chhavi {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+/*-----------------footer---------------*/
+
+.footer-clean {
+  padding: 50px 0;
+  background-color: rgb(0, 0, 0);
+  color: #1a1b1b;
+}
+
+.footer-clean h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-clean ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-clean ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity: 1;
+}
+
+.footer-clean .item.social {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align: center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: 10px;
+  margin-top: 22px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 991px) {
+  .footer-clean .item.social > a {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item.social > a {
+    margin-top: 10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+
+.suresh{
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 50%;
+}
+
+.kannu{
+    font-size: 20px;
+}
